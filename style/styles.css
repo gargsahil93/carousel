@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 5px 40%;
+    background-color: beige;
+    display: flex;
+}
+
+.carousel {
+    height : 500px;
+    display: flex;
+    background-color: beige;
+}
+.carousel .left,.right {
+    width: 20%;
+    height: 100%;
+    opacity: 0.3;
+    position: relative;
+}
+.carousel .left:hover,.right:hover {
+    opacity: 0.7;
+}
+.carousel .center {
+    width: 60%;
+    height : 100%;
+}
+
+.tile {
+    height : 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tile .tile-image {
+    height: 90%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 90px;
+    text-align: center;
+}
+.tile .tile-price {
+    height: 10%;
+    text-align: center;
+    font-size: large;
+}
+input {
+    margin: 2px 5px;
+}
+.controls {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+}
+.navigation-tile {
+    height: 100%;
+}
